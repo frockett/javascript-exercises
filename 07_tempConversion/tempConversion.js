@@ -1,13 +1,11 @@
 const convertToCelsius = function(input) {
   let celsius = ((input - 32) * 5/9);
-  const roundResult = Math.round(celsius * 10) / 10;
-  return roundResult;
+  return Math.round(celsius * 10) / 10;
 };
 
 const convertToFahrenheit = function(input) {
   let fResult = ((input * 9/5) + 32)
-  const roundResult = Math.round(fResult * 10) / 10;
-  return roundResult;
+  return Math.round(fResult * 10) / 10;
 };
 
 // Do not edit below this line
